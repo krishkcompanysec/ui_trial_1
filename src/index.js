@@ -16,10 +16,10 @@ ReactDOM.render(
   <React.StrictMode>
    
     
-    <BrowserRouter>
+    <HashRouter>
     <Route exact path="/" component={App} />
     <Route path="/test" component={Test} />
-    </BrowserRouter>
+    </HashRouter>
     
     
   </React.StrictMode>,
