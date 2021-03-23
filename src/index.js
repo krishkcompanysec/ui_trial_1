@@ -14,14 +14,7 @@ import Test from './Pages/test';
 
 ReactDOM.render(
   <React.StrictMode>
-   
-    
-    <BrowserRouter>
-    <Route exact path="/" component={App} />
-    <Route path="/test" component={Test} />
-    </BrowserRouter>
-    
-    
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
